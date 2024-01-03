@@ -11,14 +11,25 @@ public class DeliveryPartner {
     }
 
     public String getId() {
+
         return id;
     }
 
     public Integer getNumberOfOrders(){
+
         return numberOfOrders;
     }
 
     public void setNumberOfOrders(Integer numberOfOrders) {
+
+        this.numberOfOrders = numberOfOrders;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setNumberOfOrders(int numberOfOrders) {
         this.numberOfOrders = numberOfOrders;
     }
 }
